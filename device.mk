@@ -47,3 +47,4 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds
+$(call inherit-product, vendor/lindroid/lindroid.mk)
